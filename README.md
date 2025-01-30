@@ -9,3 +9,5 @@ Use POSTMAN to test the requests.
 Create a collection in POSTMAN that includes all the requested requests.
 
 Download the POSTMAN collection and include it in the ZIP/RAR file to be submitted.
+
+The API must fulfill the requests stated on the pdf (enunciado.pdf)
