@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "86e11b78-dbcc-4fd8-92be-d2b0bed7549f",
+		"name": "Tenistas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41216976"
+	},
+	"item": [
+		{
+			"name": "Actualizar Pista",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Algodón\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Servidor/Gestion_tenistas/API_Tenista/superficie.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Servidor",
+						"Gestion_tenistas",
+						"API_Tenista",
+						"superficie.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Añadir Ganador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"anno\":1975,\r\n    \"tenista_id\": 5,\r\n    \"torneo_id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Servidor/Gestion_tenistas/API_Tenista/titulos.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Servidor",
+						"Gestion_tenistas",
+						"API_Tenista",
+						"titulos.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar Tenista",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Servidor/Gestion_tenistas/API_Tenista/tenistas.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Servidor",
+						"Gestion_tenistas",
+						"API_Tenista",
+						"tenistas.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Tenista",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Servidor/Gestion_tenistas/API_Tenista/tenistas.php?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Servidor",
+						"Gestion_tenistas",
+						"API_Tenista",
+						"tenistas.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
