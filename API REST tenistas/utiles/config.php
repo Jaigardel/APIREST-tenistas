@@ -1,8 +1,8 @@
 <?php
     $dbInfo = [
-        "host" => "172.26.104.210",
-        "username" => "pepito01",
-        "password" => "pepito01",
+        "host" => "",
+        "username" => "",
+        "password" => "",
         "db" => "dwes_tarde_tenistas"
     ];
 
